@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables </title>
+  <link rel="stylesheet" href="css\style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--barra navegacion-->
+
+  <div class="nav" style="background-color: rgba(2,0,7,1);">
+    <div class="nav1"><span><img src="multimedia\icons\icon_inicio.png" alt="" class="icon-nav"></span> learning
+    </div>
+    <div class="nav2">
+      <div class="nav12" style="width: 50%;"><a class="nav123" href="index.html">Inicio</a></div>
+      <div class="nav12" style="width: 50%;"><a class="nav123" href="index.html"></a></div>
+
+    </div>
+    <div class="nav3"><a style="text-decoration: none; color: azure;" href="#contacto">contacto</a>
+    </div>
+
+  </div>
+
+
+
+
+  <!--contenido de caja izquierda-->
+
+  <div class="left_cont1">
+    <h1 class="tico">python <span><img src="multimedia\temario\Python-logo.png" alt="" style="width: 1.4rem;"></span>
+    </h1>
+
+
+    <ol><a href="">
+        <h3 class="h3tema">Tipos de datos y estructuras</h3>
+      </a>
+      <li><a href="">Print</a></li>
+      <li><a href="">Comentarios</a></li>
+      <li><a href="">variables</a></li>
+        <ul>
+          <a href=""><li>1.1 Variables con valor de otras variables</li></a>
+        </ul>
+      <li><a href="">Tipos de datos</a></li>
+      <li><a href="">Operadores </a></li>
+
+    </ol>
+
+  </div>
+
+  <div class="right_cont1">
+    <div class="div_56">
+      <h1 class="text_center" style="color:darksalmon;">Variables</h1>
+      <p>Las varibales en la programación son utilizadas para almacenar datos. su estructura es el nombre de la variable
+        junto con el valor que le
+        asignamos. Las variables pueden almacenar disintos tipos de datos como numericos, numeros decimales, palabras o
+        booleanos. Utilizamos el signo igual "<b>=</b>" para indicar el valor
+        de la variable </p>
+
+      <p>Para asignarle un nombre a una variable podemos usar letras, numeros y el caracter de guion bajo o barra baja.
+      </p>
+
+      <div class="dibeje">
+        <h5 class="ejeml">ejemplo:</h5>
+        <div class="code">
+          <code>
+                <span class="COM">nombre</span><span class="igu"> = </span><span class="tex">"alex"</span>
+              </code>
+        </div>
+        <div class="code">
+          <code>
+                <span class="COM">edad</span><span class="igu"> = </span><span class="numd">17</span>
+
+              </code>
+        </div>
+        <div class="code">
+          <code>
+                <span class="COM">aprendiz</span><span class="igu"> = </span><span class="COM">true</span>
+
+              </code>
+        </div>
+        <div class="code">
+          <code>
+                <span class="COM">nivel</span><span class="igu"> = </span><span class="numd">2.20</span>
+
+              </code>
+        </div>
+      </div>
+      <div class="div_56">
+        <p>como podemos observar creamos cuatro variables, a la variable nombre le asignamos una palabra, a la variable
+          edad
+          le asignamos un numero entero, a la variable aprendiz le damos un valor verdadero y por ultimo a la variable
+          nivel le asignamos un valor decimal.
+
+        </p>
+
+        <p>
+          Un dato curioso es que las variables son mutables es decir que se puede cambiar su valor y podemos unsar la
+          función <code>print</code> para imprimirlas en consola.
+        </p>
+        <div class="dibeje">
+          <h5 class="ejeml">ejemplo:</h5>
+          <div class="code">
+            <code>
+                  <span class="COM">numero</span><span class="igu"> = </span><span class="numd">1</span>
+                </code>
+          </div>
+          <div class="code">
+            <code>
+                  <span class="COM">numero</span><span class="igu"> = </span><span class="numd">5</span>
+                </code>
+          </div>
+          <div class="code">
+            <code>
+                  &#160
+                </code>
+          </div>
+          <div class="code">
+            <code>
+                   <span class="pn">print</span><span class="pa">(</span><span class="COM">numero</span><span class="pa">)</span>
+                </code>
+          </div>
+          <h5>resultado:</h5>
+          <div class="code">
+            <code>
+                    <span class="COM">5</span>
+                  </code>
+          </div>
+        </div>
+        <div class="div_56">
+          <p>
+            Como pudiste observar creamos una variable llamada <code class="COM">numero</code>, le asignamos el valor numerico de 1 y 
+            posteriormente cambiamos su valor a 5, python imprime el valor mas reciente aignado a la variable.
+          </p>
+        </div>
+        <div class="div_56">
+          <h2 style="color:darksalmon;">Variables con valor de otras variables </h2>
+
+          <p>Sabias que una variable puede tener el valor de otra variable. Por ejemplo creamos una variable llamda <b><code class="COM">py</code></b> y le asignamos el valor de "python", creamos otra variable llamda
+          lenguaje_de_programacion y a esta le asignamos el valor de la variable anteriormente creada py.Como lo vermos a continuación. </p>
+            
+          <div class="dibeje">
+            <div class="code">
+              <code>
+                <span class="COM">py</span><span class="igu"> = </span><span class="tex">"python"</span>
+              </code> 
+            </div>
+            <div class="code">
+              <code>
+                <span class="COM">lenguaje_de_programacion</span><span class="igu"> = </span><span class="COM">py</span>
+              </code> 
+            </div>
+            <div class="code">
+              <code>
+                &nbsp
+              </code>
+            </div>
+            <div class="code">
+              <code>
+                <span class="pn">print</span><span class="pa">(</span><span class="COM">lenguaje_de_programacion</span><span class="pa">)</span>
+              </code>
+            </div>
+            <h5>resultado:</h5>
+            <div class="code">
+              <code>
+                <span class="COM">python</span>
+              </code>
+            </div>
+          </div>
+        </div>
+        <div class="div_56">
+          <p>Como pudiste observar imprimimos la función <code class="COM">lenguaje_de_programacion</code> y se mostro en consola la palabra python ya que python es el valor que
+          le asignamos a la variable py.</p>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="div_56">
+      <div class="sig">
+        <button class="atr" onclick="location.href='python_B_DYE_2.1.html'">atras</button>
+        <button class="atr" onclick="location.href='python_B_DYE_2.3.html'">siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="fot">
+    <div style="float: left;" class="foodiv">
+      <p>
+        Platafroma virtual de aprendizaje gratuita hecha con mucho amor para que puedas aprender &#128150
+      </p>
+      <p>
+        &#174 derechos reservados &#9899
+      </p>
+      <p>
+        Colombia &#128205
+      </p>
+    </div>
+    <div id="contacto" style="float: right; border-left: 2px solid azure;" class="foodiv">
+      <table style="width: 35rem; height: 9rem;">
+        <tr>
+          <td><img class="imgfo" src="multimedia\redes\Instagram_logo.webp" alt="">
+            <p>alexa</p>
+          </td>
+          <td><img class="imgfo" src="multimedia\redes\gmail.logo.png" alt="">
+            <p>alexa.carolina4497@gmail.com</p>
+          </td>
+
+        </tr>
+        <tr>
+          <td><img class="imgfo" src="multimedia\redes\WhatsApp.svg.webp" alt="">
+            <p>3157713659</p>
+          </td>
+          <td><img class="imgfo" src="multimedia\redes\Youtube_logo.png" alt="">
+            <p>alex</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+
+</body>
+
+</html>

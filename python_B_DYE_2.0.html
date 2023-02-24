@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de datos y estructuras</title>
+  <link rel="stylesheet" href="css\style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!--barra navegacion-->
+
+  <div class="nav" style="background-color: rgba(2,0,7,1);">
+    <div class="nav1"><span><img src="multimedia\icons\icon_inicio.png" alt="" class="icon-nav"></span> learning
+    </div>
+    <div class="nav2">
+      <div class="nav12" style="width: 50%;"><a class="nav123" href="index.html">Inicio</a></div>
+      <div class="nav12" style="width: 50%;"><a class="nav123" href="index.html"></a></div>
+
+    </div>
+    <div class="nav3"><a style="text-decoration: none; color: azure;" href="#contacto">contacto</a>
+    </div>
+
+  </div>
+
+
+
+
+  <!--contenido de caja izquierda-->
+
+  <div class="left_cont1">
+    <h1 class="tico">python <span><img src="multimedia\temario\Python-logo.png" alt="" style="width: 1.4rem;"></span>
+    </h1>
+
+
+    <ol><a href="">
+        <h3 class="h3tema">Tipos de datos y estructuras</h3>
+      </a>
+      <li><a href="">Print</a></li>
+      <ul>
+        <a href=""><li>1.1 desafío de practica</li></a>
+        <a href=""><li>1.2 Patrones print()</li></a>
+        <a href=""><li>1.3 desafío practica</li></a>
+      </ul>
+
+      <li><a href="">Comentarios</a></li>
+      <li><a href="">Tipos de datos </a></li>
+      <li><a href="">Operadores </a></li>
+
+    </ol>
+
+  </div>
+
+  <div class="right_cont1">
+
+    <div class="div_56">
+      <h1 class="text_center">Tipos de datos y estructuras de python</h1>
+      <p>En python existen diferentes tipos de datos los cuales almacenan cierto tipo de información o tienen diferentes
+        funciones.Estos
+        tipos de datos pueden ser enteros, numeros reales, booleanos entre otros.Continua aprendiendo y paso a paso te
+        enseñare cada uno de ellos y sus funciones.
+      </p>
+    </div>
+
+    <div class="div_56">
+      <h1 class="text_center" style="color:cornflowerblue;">Print()</h1>
+      <p>Como lo vimos en la lección pasada la función <code>print</code> imprime los valores que indiquemos, su
+        sintaxis se basa en colocar la palabra print y entre dos comillas dobles o comillas simples indicar que queremos
+        que se imprima o muestre en consola.</p>
+      <div class="div_56">
+        <div class="dibeje">
+          <h5 class="ejeml">ejemplo:</h5>
+          <div class="code">
+            <code> <span class="pn">print</span>
+              <span class="pa">("</span><span class="tex">hola&#128150"</span><span class="pa">)</span>  
+            </code>
+          </div>
+          <h5>resultado:</h5>
+          <div class="code">
+            <code>
+              <span class="COM">hola&#128150</span>
+            </code>
+          </div>
+
+          <div class="div_56">
+            <h5 class="ejeml">segundo ejemplo:</h5>
+            <div class="code">
+              <code> <span class="pn">print</span>
+                  <span class="pa">(</span><span class="tex">'comillas simples'</span><span class="pa">)</span>  
+                </code>
+            </div>
+            <h5>resultado:</h5>
+            <div class="code">
+              <code>
+                  <span class="COM">comillas simples</span>
+                </code>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="div_56">
+        <h3 class="ejer"><span>&#127919</span> desafío de practica:</h3>
+        <p>Crea un archivo de vsc llamado <code>mi_nombre.py</code>. Escribe una linea de codigo en la cual utilices la
+          función <code>print</code> y como parametro indica tu nombre y tus apellidos.</p>
+
+        <h4>desafío resuelto: <a href="https://github.com/alexa4497/learning_desafios/blob/main/mi_nombre.py" target="_blank">mi_nombre.py</a></h4>
+      </div>
+
+      <div class="div_56">
+        <h2 class="ro">&#128192 Patrones print()</h2>
+        <p>la funcion print tambien puede ser usada multiples veces, es decir una seguida de la otra como lo veras a
+          continuación</p>
+        <div class="dibeje">
+          <h5 class="ejeml">ejemplo:</h5>
+          <div class="code">
+            <code>
+            <span class="pn">print</span><span class="pa">(</span><span class="tex">"me llamo Alex&#9802"</span><span class="pa">)</span>
+  
+            </code>
+          </div>
+          <div class="code">
+            <code><span class="pn">print</span><span class="pa">(</span><span class="tex">"tengo 17 años"</span><span class="pa">)</span>
+            </code>
+          </div>
+          <div class="code">
+            <code><span class="pn">print</span><span class="pa">(</span><span class="tex">"mi fruta favorita es la manzana&#127822"</span><span class="pa">)</span></code>
+
+          </div>
+          <h5>resultado:</h5>
+          <div class="code"> 
+            <code><span class="COM">me llamo Alex&#9802</span></code>
+          </div>
+          <div class="code">
+            <code><span class="COM">tengo 17 años</span></code>
+          </div>
+          <div class="code">
+            <code><span class="COM">mi fruta favorita es la manzana&#127822	</span></code>
+          </div>
+        </div>
+        <div class="div_56">
+          <h3 class="ejer"><span>&#127919</span> desafío de practica:</h3>
+          <p>Crea un archivo de vsc llamado <code>patrones.py</code>. En el programa varias lienas de codigo en la cuales
+          interpretes la siguiente piramide de numero usando exclusivamente la función <code>print</code></p>
+          
+            <div class="dibeje">
+              <h5>piramide resultante:</h5>
+
+              <div class="code">
+                <code class="COM">  &nbsp&nbsp&nbsp1</code>
+              </div>
+              <div class="code">
+                <code class="COM">  &nbsp&nbsp2 3</code>
+              </div>
+              <div class="code">
+                <code class="COM"> &nbsp4 5 6</code>
+              </div>
+              <div class="code">
+                <code class="COM">7 8 9 10</code>
+              </div>
+            </div>
+
+          <h4>desafío resuelto: <a href="https://github.com/alexa4497/learning_desafios/blob/main/patrones.py" target="_blank">patrones.py</a></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="div_56">
+      <div class="sig">
+        <button class="atr" onclick="location.href='python_A_I.html'">atras</button>
+        <button class="atr" onclick="location.href='python_B_DYE_2.1.html'">siguiente</button>
+      </div>
+    </div>    
+
+  </div>
+
+  
+
+
+  <footer class="fot">
+    <div style="float: left;" class="foodiv">
+      <p>
+        Platafroma virtual de aprendizaje gratuita hecha con mucho amor para que puedas aprender &#128150
+      </p>
+      <p>
+        &#174 derechos reservados &#9899
+      </p>
+      <p>
+        Colombia &#128205
+      </p>
+    </div>
+    <div id="contacto" style="float: right; border-left: 2px solid azure;" class="foodiv">
+      <table style="width: 35rem; height: 9rem;">
+        <tr>
+          <td><img class="imgfo" src="multimedia\redes\Instagram_logo.webp" alt="">
+            <p>alexa</p>
+          </td>
+          <td><img class="imgfo" src="multimedia\redes\gmail.logo.png" alt="">
+            <p>alexa.carolina4497@gmail.com</p>
+          </td>
+
+        </tr>
+        <tr>
+          <td><img class="imgfo" src="multimedia\redes\WhatsApp.svg.webp" alt="">
+            <p>3157713659</p>
+          </td>
+          <td><img class="imgfo" src="multimedia\redes\Youtube_logo.png" alt="">
+            <p>alex</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+</body>
+
+</html>
